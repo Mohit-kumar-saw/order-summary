@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="bg-slate-200 flex justify-center items-center h-screen">
+    <div
+      class="flex flex-col items-center gap-2 bg-white rounded-xl w-80 h-auto md:w-96 shadow-2xl shadow-slate-400"
+    >
+      <img
+        src="./images/illustration-hero.svg"
+        class="rounded-t-xl w-full"
+        alt=""
+      />
+      <div class="w-full flex flex-col gap-3 items-center">
+        <h2 class="font-bold text-xl md:text-2xl text-slate-800 font-sans">
+          Order Summary
+        </h2>
+        <div class="text-center  text-sm md:text-base text-slate-500 space-y-1 font-semibold">
+          <p>
+            You can now listen to millions of <br />songs, audiobooks, and
+            podcasts on <br />
+            any device anywhere you like!
+          </p>
+        </div>
+        <div class="flex justify-around gap-3 md:gap-1 bg-slate-100 rounded-lg p-2 w-60 md:w-80 text-xs md:text-sm mt-5">
+          <img src="./images/icon-music.svg " class="w-10 md:w-12 py-1" alt="" />
+          <div class="font-semibold mt-1 py-1">
+            <p class="font-bold text-slate-800">Annual Plan</p>
+            <p class="text-slate-500">$59.99/year</p>
+          </div>
+
+          <a
+            href="*"
+            class="text-center text-xs font-bold text-blue-800 underline pl-8 pt-4"
+            >Change</a
+          >
+        </div>
+        <div class="flex flex-col items-center gap-1 w-64 text-sm md:text-base md:w-80  ">
+          <button
+            class="font-semibold bg-blue-800 text-white text-center p-3 rounded-lg my-3 shadow-lg shadow-slate-400 hover:opacity-50 hover:cursor-pointer w-full"
+          >
+            Proceed to Payment
+          </button>
+          <button
+            class="font-bold text-center shadow-black text-slate-500 mb-6 "
+          >
+            Cancel Order
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
